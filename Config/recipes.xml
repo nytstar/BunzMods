@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<configs>
+    <append xpath="/recipes">
+        <recipe name="solarCell" count="1" craft_area="workbench">
+                <ingredient name="resourceClayLump" count="1"/>
+                <ingredient name="chargeController" count="1"/>
+        </recipe>
+		
+		<recipe name="thermalPaste" count="1" craft_area="chemistryStation">
+                <ingredient name="resourceClayLump" count="1"/>
+                <ingredient name="resourceRockSmall" count="1"/>
+        </recipe>
+		<recipe name="chargeController" count="1" craft_area="workbench">
+                <ingredient name="resourceClayLump" count="1"/>
+                <ingredient name="thermalPaste" count="1"/>
+        </recipe>
+    </append>
+</configs>

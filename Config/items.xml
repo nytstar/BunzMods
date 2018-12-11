@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<configs>
+    <append xpath="/items">
+  <item name="thermalPaste">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mclay"/>
+	<property name="Weight" value="5"/>
+	<property name="CustomIcon" value="thermalPaste"/> <property name="CustomIconTint" value="ffa0a0"/>
+	<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="6"/>
+	<property name="EconomicBundleSize" value="150"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value="0.5"/>
+</item>
+		  <item name="chargeController">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mclay"/>
+	<property name="Weight" value="5"/>
+	<property name="CustomIcon" value="chargeController"/> <property name="CustomIconTint" value="ffa0a0"/>
+	<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="6"/>
+	<property name="EconomicBundleSize" value="150"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value="0.5"/>
+</item>
+    </append>
+</configs>
