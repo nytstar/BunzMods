@@ -14,5 +14,10 @@
                 <ingredient name="resourceClayLump" count="1"/>
                 <ingredient name="thermalPaste" count="1"/>
         </recipe>
+		
+		<recipe name="resourceHelium" count="1" craft_area="chemistryStation">
+                <ingredient name="bottledWater" count="1"/>
+                
+        </recipe>
     </append>
 </configs>

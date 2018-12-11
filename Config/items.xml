@@ -1,7 +1,63 @@
 <?xml version="1.0"?>
 <configs>
     <append xpath="/items">
-  <item name="thermalPaste">
+		
+		
+		
+		<!--Periodic Table-->
+		
+		  <item name="resourceHelium">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mclay"/>
+	<property name="Weight" value="5"/>
+	<property name="CustomIcon" value="templateTexture"/> <property name="CustomIconTint" value="ffa0a0"/>
+	<property name="Stacknumber" value="8000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="6"/>
+	<property name="EconomicBundleSize" value="150"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value="0.5"/>
+			  
+</item>
+		
+		<item name="resourceHydrogen">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mclay"/>
+	<property name="Weight" value="5"/>
+	<property name="CustomIcon" value="templateTexture"/> <property name="CustomIconTint" value="ffa0a0"/>
+	<property name="Stacknumber" value="8000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="6"/>
+	<property name="EconomicBundleSize" value="150"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value="0.5"/>
+			  
+</item>
+		<item name="resourceOxygen">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mclay"/>
+	<property name="Weight" value="5"/>
+	<property name="CustomIcon" value="templateTexture"/> <property name="CustomIconTint" value="ffa0a0"/>
+	<property name="Stacknumber" value="8000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="6"/>
+	<property name="EconomicBundleSize" value="150"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value="0.5"/>
+			  
+</item>
+		
+		
+		<!-- End Periodic Table-->
+		
+		
+		<!-- Materials -->
+		
+		
+<item name="thermalPaste">
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -14,7 +70,29 @@
 	<property name="Group" value="Resources"/>
 	<property name="CraftingIngredientTime" value="0.5"/>
 </item>
-		  <item name="chargeController">
+	<item name="purifiedWater">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mclay"/>
+	<property name="Weight" value="5"/>
+	<property name="CustomIcon" value="templateTexture"/> <property name="CustomIconTint" value="ffa0a0"/>
+	<property name="Stacknumber" value="8000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="6"/>
+	<property name="EconomicBundleSize" value="150"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value="0.5"/>
+</item>
+	
+<!-- Chemicals -- >
+
+<!-- Binding Agents -->
+		
+		
+		
+		<!-- Parts -->
+		
+			 <item name="chargeController">
 	<property name="HoldType" value="45"/>
 	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -27,5 +105,38 @@
 	<property name="Group" value="Resources"/>
 	<property name="CraftingIngredientTime" value="0.5"/>
 </item>
+		
+				<item name="circutBoard">
+	<property name="HoldType" value="45"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mclay"/>
+	<property name="Weight" value="5"/>
+	<property name="CustomIcon" value="circutBoard"/> <property name="CustomIconTint" value="ffa0a0"/>
+	<property name="Stacknumber" value="6000"/> <!-- STK resource -->
+	<property name="EconomicValue" value="10/>
+	<property name="EconomicBundleSize" value="150"/>
+	<property name="Group" value="Resources"/>
+	<property name="CraftingIngredientTime" value="1.5/></item>
+		
+		
+		
+		
+		
+		<!--solar panel group -->
+		
     </append>
+		
+
+
+
+	
 </configs>
+
+
+<!-- Todo list 
+
+
+Custom icons for all items
+
+-->
